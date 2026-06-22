@@ -73,7 +73,7 @@ We need to teach our robot the same thing!
 
 ### 2. 基础物理概念回顾 | Basic Physics Review (1h)
 
-**笨鸟先飞: 如果你没学过高中物理，别怕！这里只用到最基础的几个概念，我们会用生活化的例子解释。**
+**循序渐进: 如果你没学过高中物理，别怕！这里只用到最基础的几个概念，我们会用生活化的例子解释。**
 
 **Don't worry if you haven't studied high school physics! We only use the most basic concepts, explained with everyday examples.**
 
@@ -385,7 +385,7 @@ pip install numpy matplotlib scipy
 倒立摆仿真 - 无控制 (自由倒下)
 Inverted Pendulum Simulation - No Control (Free Fall)
 
-笨鸟先飞:
+循序渐进:
 - 这个仿真展示: 不加控制时, 倒立摆会怎样?
 - 答案: 倒下! 而且倒下的速度和方式完全由物理定律决定
 - 仿真是用计算机"算出"物理过程, 像在电脑里放慢镜头
@@ -540,7 +540,7 @@ print("Simulation complete! Image saved as inverted_pendulum_no_control.png")
 倒立摆仿真 - 加入 PD 控制器
 Inverted Pendulum Simulation - With PD Controller
 
-笨鸟先飞:
+循序渐进:
 - PD 控制器 = "比例-微分" 控制器
 - 比例项 (P): 角度越大, 纠正力越大 (像弹簧)
 - 微分项 (D): 角速度越大, 阻尼越大 (像减震器)
@@ -690,7 +690,7 @@ print(f"  最终轮子偏移: {x_pos[-1]*100:.2f} cm")
 不同控制器参数对比
 Comparing different controller parameters
 
-笨鸟先飞:
+循序渐进:
 - 这个实验让你直观看到: 参数不同, 效果完全不同
 - Kp 太小 → 机器人倒了 (纠正力不够)
 - Kp 太大 → 机器人振荡 (纠正过猛)

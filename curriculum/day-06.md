@@ -66,7 +66,7 @@ Problem 3: No remote control, no turning
     - Which direction the robot is facing (yaw)
 ```
 
-> **笨鸟先飞原则 | Smart Bird Principle**: 这就像骑自行车——你不仅要保持平衡（角度），还要控制速度（不能太快或太慢）、方向（不能跑偏）。一个控制器同时做三件事？太难了。解决方法是**分层控制**——每个控制器只做一件事。
+> **循序渐进原则 | Progressive Scaffolding**: 这就像骑自行车——你不仅要保持平衡（角度），还要控制速度（不能太快或太慢）、方向（不能跑偏）。一个控制器同时做三件事？太难了。解决方法是**分层控制**——每个控制器只做一件事。
 
 > It's like riding a bicycle — you need to maintain balance (angle), control speed, and control direction. One controller doing all three? Too hard. The solution is **hierarchical control** — each controller does only one thing.
 
@@ -586,7 +586,7 @@ Prerequisite: balance loop already tuned (yesterday's work)
   → 消除稳态速度误差 | Eliminate steady-state speed error
 ```
 
-> **笨鸟先飞原则 | Smart Bird Principle**: 速度环的输出限制（`setLimits(15.0, ...)`）非常重要。如果允许太大的角度修正，机器人会猛地前倾或后倾然后倒下。±15° 是安全的起步值。
+> **循序渐进原则 | Progressive Scaffolding**: 速度环的输出限制（`setLimits(15.0, ...)`）非常重要。如果允许太大的角度修正，机器人会猛地前倾或后倾然后倒下。±15° 是安全的起步值。
 
 > The velocity loop's output limit is very important. If too large an angle correction is allowed, the robot will suddenly lean and fall. ±15° is a safe starting value.
 

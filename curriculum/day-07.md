@@ -69,7 +69,7 @@ Our choice: Bluetooth Classic (Serial)
   iOS users need BLE version (provided in afternoon)
 ```
 
-> **笨鸟先飞原则 | Smart Bird Principle**: 很多教程一上来就教 BLE，说它更现代。但对于我们的场景，Bluetooth Classic 的串口模式是最佳选择——代码量最少、调试最方便、手机 App 免费现成。先把东西做出来，优化以后再说。
+> **循序渐进原则 | Progressive Scaffolding**: 很多教程一上来就教 BLE，说它更现代。但对于我们的场景，Bluetooth Classic 的串口模式是最佳选择——代码量最少、调试最方便、手机 App 免费现成。先把东西做出来，优化以后再说。
 
 > Many tutorials teach BLE first, calling it more modern. But for our scenario, Bluetooth Classic serial mode is the best choice — least code, easiest debugging, free phone apps. Build something first, optimize later.
 
@@ -84,7 +84,7 @@ Our choice: Bluetooth Classic (Serial)
  * bluetooth_basic.ino — 最简蓝牙串口示例
  * bluetooth_basic.ino — Minimal Bluetooth serial example
  *
- * 笨鸟先飞:
+ * 循序渐进:
  * - BluetoothSerial 库让蓝牙通信和串口通信完全一样
  * - SerialBT.read() / SerialBT.println() 和 Serial 的用法一模一样
  * - 唯一的区别：数据通过无线传输而不是 USB 线
@@ -228,7 +228,7 @@ inline uint8_t calculateChecksum(const uint8_t* data, size_t len) {
  * PacketParser.h — 数据包解析器
  * PacketParser.h — Packet parser
  *
- * 笨鸟先飞:
+ * 循序渐进:
  * - 解析器使用"状态机"模式——每次读一个字节，根据当前状态决定怎么处理
  * - 这和快递分拣一样：先看包裹上的标签（帧头），再看收件人（命令），
  *   再看里面是什么（数据），最后检查是否完好（校验和）
@@ -531,7 +531,7 @@ private:
  * JoystickMapping.h — 摇杆到机器人命令的映射
  * JoystickMapping.h — Joystick to robot command mapping
  *
- * 笨鸟先飞:
+ * 循序渐进:
  * - 摇杆推得越远 → 机器人速度/转向越大
  * - 死区：摇杆在中间位置时不输出（防止抖动）
  * - 支持线性和指数映射两种模式

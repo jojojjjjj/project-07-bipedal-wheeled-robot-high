@@ -52,7 +52,7 @@ The sensor constantly tells the controller the current state,
 and the controller corrects accordingly
 ```
 
-> **笨鸟先飞原则 | Smart Bird Principle**: 我们的本能是"告诉电机转多快就行了"。但现实中电机不精确、地面不平、电池电压会变。没有反馈，机器人一定会倒。闭环控制是让机器人"看得见"自己的状态。
+> **循序渐进原则 | Progressive Scaffolding**: 我们的本能是"告诉电机转多快就行了"。但现实中电机不精确、地面不平、电池电压会变。没有反馈，机器人一定会倒。闭环控制是让机器人"看得见"自己的状态。
 
 > Our instinct is "just tell the motor how fast to spin." But in reality, motors are imprecise, the ground is uneven, and battery voltage changes. Without feedback, the robot WILL fall over. Closed-loop control lets the robot "see" its own state.
 
@@ -205,7 +205,7 @@ Integral is the **accumulation of error**. Even if the error is small, it builds
  *
  * u(t) = Kp*e(t) + Ki*integral(e(t)dt) + Kd*de(t)/dt
  *
- * 笨鸟先飞:
+ * 循序渐进:
  * - 这是一个完整的、可用于实际机器人的 PID 控制器
  * - 包含积分限幅（anti-windup）和微分滤波
  * - 可以直接复制到你的项目中使用
@@ -760,7 +760,7 @@ Ki 太大的危害 | Dangers of too much Ki:
   - 响应变慢 → "拖泥带水"
 ```
 
-> **笨鸟先飞原则 | Smart Bird Principle**: 很多初学者觉得"I 让控制更精确"，所以一开始就设很大。这是错的。I 太大会导致积分饱和、超调、甚至让已经稳定的系统不稳定。**Ki 应该最后调，从非常小的值开始**。
+> **循序渐进原则 | Progressive Scaffolding**: 很多初学者觉得"I 让控制更精确"，所以一开始就设很大。这是错的。I 太大会导致积分饱和、超调、甚至让已经稳定的系统不稳定。**Ki 应该最后调，从非常小的值开始**。
 
 > Many beginners think "I makes control more precise" and set Ki large from the start. This is wrong. Too much I causes windup, overshoot, and can destabilize. **Ki should be tuned last, starting from a very small value.**
 

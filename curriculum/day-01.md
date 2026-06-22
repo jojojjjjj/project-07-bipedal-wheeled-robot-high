@@ -260,7 +260,7 @@ monitor_speed = 115200       ; Serial monitor baud rate
  * 功能: 让 ESP32 开发板上的 LED 闪烁
  * Function: Blink the onboard LED on ESP32 dev board
  *
- * 笨鸟先飞:
+ * 循序渐进:
  * - LED = Light Emitting Diode（发光二极管），通电就亮
  * - GPIO = General Purpose I/O，可以输出高/低电平
  * - 高电平(HIGH) = 3.3V，低电平(LOW) = 0V
@@ -348,7 +348,7 @@ void loop() {
  * S = ... (三短)
  * O = --- (三长)
  *
- * 笨鸟先飞:
+ * 循序渐进:
  * - SOS 是国际通用求救信号
  * - 通过 LED 的闪烁长短来表示不同字母
  */
@@ -403,7 +403,7 @@ void loop() {
  * 呼吸灯 - 使用 PWM 控制 LED 亮度
  * Breathing LED - Using PWM to control LED brightness
  *
- * 笨鸟先飞:
+ * 循序渐进:
  * - PWM = Pulse Width Modulation (脉宽调制)
  * - 原理: 快速地开关 LED，通过调节"开"的时间比例来控制亮度
  * - 类比: 快速开关灯泡，如果开90%关10%，看起来就是90%亮度
@@ -519,7 +519,7 @@ void loop() {
  * 按钮控制 LED - 学习 GPIO 输入
  * Button-controlled LED - Learning GPIO input
  *
- * 笨鸟先飞:
+ * 循序渐进:
  * - 之前我们只用 GPIO 做输出（控制 LED）
  * - 现在学习用 GPIO 做输入（读取按钮状态）
  * - 按钮按下 = 引脚接地 = LOW

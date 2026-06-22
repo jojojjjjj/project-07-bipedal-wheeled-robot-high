@@ -123,7 +123,7 @@ A- = Phase A energized negative
 (Unlisted phases are off)
 ```
 
-> **笨鸟先飞: 什么是"换向"？** 想象你在骑马。要让马一直往前跑，你需要在正确的时机换脚（踩马镫）。电机的换向也一样 -- 在正确的时机切换电流方向，让转子一直转下去。有刷电机用碳刷（机械方式）做这件事，BLDC 用电子电路做，所以更精确、更耐用。
+> **循序渐进: 什么是"换向"？** 想象你在骑马。要让马一直往前跑，你需要在正确的时机换脚（踩马镫）。电机的换向也一样 -- 在正确的时机切换电流方向，让转子一直转下去。有刷电机用碳刷（机械方式）做这件事，BLDC 用电子电路做，所以更精确、更耐用。
 
 > **Beginner note: What is "commutation"?** Imagine riding a horse. To keep galloping, you must switch your footing at the right moment. Motor commutation is the same — switch current direction at the right timing to keep the rotor spinning. Brushed motors use carbon brushes (mechanical), BLDC uses electronic circuits, so it's more precise and durable.
 
@@ -332,7 +332,7 @@ lib_deps =
  * 编码器读取测试 - 不驱动电机，只读取编码器数据
  * Encoder reading test - read encoder data only, don't drive motor
  *
- * 笨鸟先飞:
+ * 循序渐进:
  * - 为什么先读编码器? 因为编码器只需要 5V 供电和两根信号线,
  *   不涉及大电流, 非常安全。先确认编码器正常, 再驱动电机。
  *
@@ -457,7 +457,7 @@ void loop() {
  * 电机驱动测试 - 使用 PWM 控制电机速度
  * Motor drive test - Control motor speed with PWM
  *
- * 笨鸟先飞:
+ * 循序渐进:
  * - 在实际 StackForce 项目中, 电机驱动由专用库处理 (如 SimpleFOC)
  * - 这里先用简化的 PWM 方式理解电机控制的基本概念
  * - 后续课程会切换到 FOC 控制
@@ -616,7 +616,7 @@ StackForce 项目可能使用 SimpleFOC 或自定义驱动库。以下是 Simple
  * SimpleFOC BLDC 电机控制示例
  * SimpleFOC BLDC motor control example
  *
- * 笨鸟先飞:
+ * 循序渐进:
  * - SimpleFOC 是一个开源的 BLDC 电机控制库, 支持 FOC 算法
  * - 它封装了复杂的数学变换, 让我们专注于控制逻辑
  * - 在 platformio.ini 中添加: lib_deps = askuravilo/SimpleFOC@^2.2

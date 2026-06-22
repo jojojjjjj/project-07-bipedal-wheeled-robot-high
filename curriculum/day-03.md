@@ -262,7 +262,7 @@ GPIOxx ←──     INT     (中断输出, 暂时不用)
  * MPU6050 原始数据读取
  * MPU6050 Raw Data Reading
  *
- * 笨鸟先飞:
+ * 循序渐进:
  * - 我们用 Adafruit MPU6050 库, 它封装了底层的 I2C 通信
  * - 也可以用 Wire 库直接读写寄存器, 但库更方便
  * - platformio.ini 添加: lib_deps = adafruit/Adafruit MPU6050 @ ^2.2
@@ -454,7 +454,7 @@ Intuition:
  * 姿态角计算 - 互补滤波器
  * Attitude Estimation - Complementary Filter
  *
- * 笨鸟先飞:
+ * 循序渐进:
  * - 互补滤波是最简单的传感器融合算法
  * - 只需要一行公式, 效果却非常好
  * - 它之所以叫"互补", 是因为陀螺仪的短期优势和加速度计的长期优势互补
@@ -665,7 +665,7 @@ Complete Kalman filter equations (simplified, 1D):
  * 简单一维卡尔曼滤波器
  * Simple 1D Kalman Filter
  *
- * 笨鸟先飞:
+ * 循序渐进:
  * - 卡尔曼滤波看起来公式复杂, 但代码其实很短
  * - 关键是理解"预测 + 修正"的思路
  * - 在我们的机器人中, 互补滤波通常就够用了
