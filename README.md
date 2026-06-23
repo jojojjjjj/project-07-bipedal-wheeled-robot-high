@@ -69,7 +69,7 @@ Upon completing this project, you will own a robot that can:
 
 | 部件 Component | 规格 Specification | 数量 | 参考价格 Price | 购买建议 Source |
 |---------------|-------------------|------|--------------|----------------|
-| ESP32 开发板 | ESP32-WROOM-32, 4MB Flash | 1 | 25 元 | 淘宝搜索 "ESP32 开发板" |
+| ESP32-S3 开发板 | ESP32-S3-DevKitC-1, 4MB Flash | 1 | 35 元 | 淘宝搜索 "ESP32-S3 开发板" |
 | BLDC 电机 | 2808 规格, 带编码器, 额定电压 12V | 2 | 60 元/个 | 淘宝搜索 "2808 无刷电机 编码器" |
 | 电机驱动板 | Dual BLDC 5A 驱动板 | 1 | 45 元 | StackForce 官方推荐 |
 | MPU6050 模块 | 6轴 IMU, I2C 接口 | 1 | 8 元 | 淘宝搜索 "MPU6050 模块" |
@@ -79,7 +79,7 @@ Upon completing this project, you will own a robot that can:
 | 杜邦线 | 母对母 20cm | 20 根 | 8 元 | 淘宝 |
 | 电源开关 | 拨动开关, 额定 3A 以上 | 1 | 2 元 | 淘宝 |
 | USB 数据线 | Micro-USB 或 Type-C | 1 | 5 元 | 淘宝 |
-| **合计 Total** | | | **约 300 元** | **远低于 500 元预算** |
+| **合计 Total** | | | **标准版约 402 元 / 最低档约 292 元** | **均低于 500 元预算（详见 `hardware/BOM.md`）** |
 
 > 注：BLDC 电机和驱动板是本项目最贵的部件，建议购买 StackForce 推荐的配套套件，兼容性更有保障。如有 3D 打印机可自行打印结构件以进一步降低成本。
 > Note: BLDC motors and the driver board are the most expensive components. We recommend purchasing the StackForce-recommended配套 kit for better compatibility. If you have access to a 3D printer, you can further reduce costs by printing the structural parts yourself.
@@ -209,8 +209,7 @@ project-07-bipedal-wheeled-robot/
 │   ├── final-presentation.md              # 最终展示要求
 │   └── rubric.md                          # 详细评分表
 └── resources/                             # 资源文件
-    ├── 3d-models/                         # 3D 打印 STL 文件
-    └── search-results.md                  # 资源搜索结果
+    └── 3d-models/                         # 3D 打印 STL 文件（按需放入）
 ```
 
 ## 学习资源 | Learning Resources

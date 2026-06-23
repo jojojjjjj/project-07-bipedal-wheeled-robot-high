@@ -76,12 +76,12 @@
 
 ## 课程特色 | Course Highlights
 
-- **真实控制工程**：不是简单的玩具项目，而是真实的倒立摆控制系统，涉及大学水平的控制理论
+- **真实控制工程**：不是简单的玩具项目，而是体验倒立摆控制的核心思想——用 PID 反馈让本来站不稳的它稳稳站住
 - **软硬件结合**：从 3D 打印结构件到 PID 参数整定，完整体验机器人系统开发全流程
 - **开源社区对接**：基于 StackForce 开源项目，学员可以持续跟进社区更新和二次开发
 - **竞赛基础**：掌握的平衡控制技术是各类机器人竞赛（如 RoboMaster、智能车竞赛）的基础
 
-> - **Real Control Engineering**: Not a simple toy project but a genuine inverted pendulum control system involving college-level control theory
+> - **Real Control Engineering**: Not a simple toy project but a hands-on taste of the core idea behind inverted-pendulum control -- using PID feedback to make something that can't stand on its own stay upright
 > - **Hardware-Software Integration**: From 3D-printed structural parts to PID parameter tuning, experience the full robot system development lifecycle
 > - **Open Source Community**: Based on the StackForce open-source project, students can follow community updates and continue development
 > - **Competition Foundation**: The balance control techniques mastered here are foundational for robotics competitions (e.g., RoboMaster, Smart Car Competition)

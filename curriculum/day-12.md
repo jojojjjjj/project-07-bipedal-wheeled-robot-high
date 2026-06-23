@@ -110,13 +110,13 @@ Slide 4: 硬件清单 | Hardware List
   ┌────────────────────┬──────────┬────────┐
   │ 组件 Component     │ 型号 Model│ 数量 Qty│
   ├────────────────────┼──────────┼────────┤
-  │ 主控 MCU           │ ESP32    │ 1      │
+  │ 主控 MCU           │ ESP32-S3 │ 1      │
   │ 惯性测量 IMU       │ MPU6050  │ 1      │
-  │ 无刷电机 BLDC      │ ___      │ 2      │
-  │ 舵机 Servo         │ SG90/MG  │ 4      │
-  │ 电池 Battery       │ 2S LiPo  │ 1      │
+  │ 无刷电机 BLDC      │ 2808 BLDC│ 2      │
+  │ 舵机 Servo         │ MG996R   │ 4      │
+  │ 电池 Battery       │ 3S LiPo  │ 1      │
   │ 降压模块 BEC       │ 5V 3A    │ 1      │
-  │ 电机驱动 Motor drv │ ___      │ 1      │
+  │ 电机驱动 Motor drv │ StackForce│ 1      │
   │ 3D 打印件 Printed  │ PLA      │ ~12    │
   └────────────────────┴──────────┴────────┘
 
@@ -462,13 +462,13 @@ Create the file `docs/index.html`:
                     </tr>
                 </thead>
                 <tbody>
-                    <tr><td>主控 MCU</td><td>ESP32 DevKit</td><td>1</td></tr>
+                    <tr><td>主控 MCU</td><td>ESP32-S3 DevKit</td><td>1</td></tr>
                     <tr><td>IMU 传感器 IMU Sensor</td><td>MPU6050</td><td>1</td></tr>
-                    <tr><td>无刷电机 BLDC Motor</td><td>___</td><td>2</td></tr>
-                    <tr><td>舵机 Servo</td><td>SG90 / MG996R</td><td>4</td></tr>
-                    <tr><td>电机驱动 Motor Driver</td><td>___</td><td>1</td></tr>
+                    <tr><td>无刷电机 BLDC Motor</td><td>2808 BLDC（带编码器）</td><td>2</td></tr>
+                    <tr><td>舵机 Servo</td><td>MG996R</td><td>4</td></tr>
+                    <tr><td>电机驱动 Motor Driver</td><td>StackForce Dual BLDC Driver 5A</td><td>1</td></tr>
                     <tr><td>降压模块 BEC</td><td>5V 3A UBEC</td><td>1</td></tr>
-                    <tr><td>电池 Battery</td><td>2S 7.4V LiPo</td><td>1</td></tr>
+                    <tr><td>电池 Battery</td><td>3S 11.1V LiPo</td><td>1</td></tr>
                     <tr><td>3D 打印结构件 3D Parts</td><td>PLA</td><td>~12</td></tr>
                 </tbody>
             </table>
