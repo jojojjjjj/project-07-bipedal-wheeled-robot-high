@@ -432,7 +432,8 @@ Cura 操作步骤 | Cura Operation Steps:
    估算信息 | Estimated Info:
    - 打印时间 Print time: ___h ___m
    - 耗材用量 Filament: ___g (___m)
-   - 估计成本 Est. cost: ¥___
+   - 估计成本 Est. cost: ___ (填入实际花费 / enter actual)
+<!-- 原模板为 "估计成本 Est. cost: ¥___" — price symbol hidden per user request (inaccurate) -->
 ```
 
 #### 打印前检查清单 | Pre-Print Checklist

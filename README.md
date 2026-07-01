@@ -1,5 +1,7 @@
 # 轮足机器人 "轮行者" | Bipedal Wheeled Robot "WheelWalker"
 
+<!-- 注：价格信息已注释隐藏（查价不准确，仅作参考不严谨）/ Note: price info commented out (inaccurate, not rigorous as reference) -->
+
 > 面向高中生的暑期机器人实践项目 | A Summer Robotics Practicum Project for High School Students
 
 ---
@@ -69,17 +71,17 @@ Upon completing this project, you will own a robot that can:
 
 | 部件 Component | 规格 Specification | 数量 | 参考价格 Price | 购买建议 Source |
 |---------------|-------------------|------|--------------|----------------|
-| ESP32-S3 开发板 | ESP32-S3-DevKitC-1, 4MB Flash | 1 | 35 元 | 淘宝搜索 "ESP32-S3 开发板" |
-| BLDC 电机 | 2808 规格, 带编码器, 额定电压 12V | 2 | 60 元/个 | 淘宝搜索 "2808 无刷电机 编码器" |
-| 电机驱动板 | Dual BLDC 5A 驱动板 | 1 | 45 元 | StackForce 官方推荐 |
-| MPU6050 模块 | 6轴 IMU, I2C 接口 | 1 | 8 元 | 淘宝搜索 "MPU6050 模块" |
-| 锂电池 | 3S 11.1V 1500mAh, 带 BMS 保护板 | 1 | 35 元 | 淘宝搜索 "3S 锂电池 1500mAh" |
-| 3D 打印结构件 | PLA 材质, 含车身+腿+轮子支架 | 1套 | 50 元 | 自行打印 / 淘宝代打 |
-| 螺丝螺母 | M2/M3 规格若干, 含尼龙柱 | 若干 | 5 元 | 淘宝 |
-| 杜邦线 | 母对母 20cm | 20 根 | 8 元 | 淘宝 |
-| 电源开关 | 拨动开关, 额定 3A 以上 | 1 | 2 元 | 淘宝 |
-| USB 数据线 | Micro-USB 或 Type-C | 1 | 5 元 | 淘宝 |
-| **合计 Total** | | | **标准版约 402 元 / 最低档约 292 元** | **均低于 500 元预算（详见 `hardware/BOM.md`）** |
+| ESP32-S3 开发板 | ESP32-S3-DevKitC-1, 4MB Flash | 1 | <!-- 35 元 --> | 淘宝搜索 "ESP32-S3 开发板" |
+| BLDC 电机 | 2808 规格, 带编码器, 额定电压 12V | 2 | <!-- 60 元/个 --> | 淘宝搜索 "2808 无刷电机 编码器" |
+| 电机驱动板 | Dual BLDC 5A 驱动板 | 1 | <!-- 45 元 --> | StackForce 官方推荐 |
+| MPU6050 模块 | 6轴 IMU, I2C 接口 | 1 | <!-- 8 元 --> | 淘宝搜索 "MPU6050 模块" |
+| 锂电池 | 3S 11.1V 1500mAh, 带 BMS 保护板 | 1 | <!-- 35 元 --> | 淘宝搜索 "3S 锂电池 1500mAh" |
+| 3D 打印结构件 | PLA 材质, 含车身+腿+轮子支架 | 1套 | <!-- 50 元 --> | 自行打印 / 淘宝代打 |
+| 螺丝螺母 | M2/M3 规格若干, 含尼龙柱 | 若干 | <!-- 5 元 --> | 淘宝 |
+| 杜邦线 | 母对母 20cm | 20 根 | <!-- 8 元 --> | 淘宝 |
+| 电源开关 | 拨动开关, 额定 3A 以上 | 1 | <!-- 2 元 --> | 淘宝 |
+| USB 数据线 | Micro-USB 或 Type-C | 1 | <!-- 5 元 --> | 淘宝 |
+| **合计 Total** | | | <!-- **标准版约 402 元 / 最低档约 292 元** --> | **均低于 <!-- 500 元 --> 预算（详见 `hardware/BOM.md`）** |
 
 > 注：BLDC 电机和驱动板是本项目最贵的部件，建议购买 StackForce 推荐的配套套件，兼容性更有保障。如有 3D 打印机可自行打印结构件以进一步降低成本。
 > Note: BLDC motors and the driver board are the most expensive components. We recommend purchasing the StackForce-recommended配套 kit for better compatibility. If you have access to a 3D printer, you can further reduce costs by printing the structural parts yourself.
@@ -272,10 +274,10 @@ A: PID 参数整定是本项目的关键挑战。课程 Day 5 会专门讲解参
 > PID parameter tuning is the key challenge of this project. Day 5 covers tuning methods (Ziegler-Nichols, trial-and-error) and provides initial reference parameters. When debugging, use the serial monitor to observe sensor data and motor output, then fine-tune gradually. Most students can get their robot standing stably after 1-2 days of tuning.
 
 **Q: 3D 打印件没有打印机怎么办？**
-A: 课程提供完整的 STL 文件，可以通过以下方式获取打印件：（1）学校或图书馆的 3D 打印机；（2）淘宝搜索 "3D 打印代工"，上传 STL 文件即可代打（约 50 元）；（3）创客空间或社区实验室通常提供免费或低价打印服务。
+A: 课程提供完整的 STL 文件，可以通过以下方式获取打印件：（1）学校或图书馆的 3D 打印机；（2）淘宝搜索 "3D 打印代工"，上传 STL 文件即可代打（约 <!-- 50 元 -->）；（3）创客空间或社区实验室通常提供免费或低价打印服务。
 
 > What if I don't have a 3D printer?
-> The course provides complete STL files. You can obtain printed parts through: (1) school or library 3D printers; (2) search "3D printing service" on Taobao and upload STL files (~50 CNY); (3) makerspaces or community labs often provide free or low-cost printing services.
+> The course provides complete STL files. You can obtain printed parts through: (1) school or library 3D printers; (2) search "3D printing service" on Taobao and upload STL files (~<!-- 50 CNY -->); (3) makerspaces or community labs often provide free or low-cost printing services.
 
 **Q: 机器人电池能用多久？**
 A: 3S 11.1V 1500mAh 锂电池在正常平衡状态下可以续航约 30-45 分钟。如果频繁遥控运动，续航会缩短。建议准备一块备用电池，或选择更大容量的电池（如 2200mAh）以延长测试时间。

@@ -85,7 +85,8 @@ MPU6050 关键参数:
 ├── 通信接口: I2C (400kHz 快速模式)
 ├── 工作电压: 3.3V (模块板通常有稳压器, 支持 5V)
 ├── 内置 DMP (数字运动处理器): 可在芯片内做姿态解算
-└── 价格: 约 5-10 元 (模块板)
+└── 价格: 模块板, 查价不准确 (inaccurate)
+<!-- 价格: 约 5-10 元 (模块板) — price hidden per user request (inaccurate) -->
 ```
 
 **I2C 协议速成 | I2C Protocol Crash Course:**

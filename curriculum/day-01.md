@@ -59,9 +59,9 @@ Day 10 → 蓝牙遥控与最终展示
 
 ### 2. ESP32 硬件认知 | ESP32 Hardware Overview (1h)
 
-**为什么要学 ESP32？** ESP32 是目前 IoT（物联网）领域最流行的微控制器之一。它便宜（约 15-30 元）、功能强大（双核 WiFi 蓝牙）、社区活跃。学会 ESP32，你就掌握了嵌入式开发的入门钥匙。
+**为什么要学 ESP32？** ESP32 是目前 IoT（物联网）领域最流行的微控制器之一。它便宜（约 <!-- 15-30 元 -->）、功能强大（双核 WiFi 蓝牙）、社区活跃。学会 ESP32，你就掌握了嵌入式开发的入门钥匙。
 
-**Why learn ESP32?** ESP32 is one of the most popular microcontrollers in IoT. It's cheap (~2-4 USD), powerful (dual-core with WiFi/BT), and has an active community. Mastering ESP32 gives you the key to embedded development.
+**Why learn ESP32?** ESP32 is one of the most popular microcontrollers in IoT. It's cheap (~<!-- 2-4 USD -->), powerful (dual-core with WiFi/BT), and has an active community. Mastering ESP32 gives you the key to embedded development.
 
 **ESP32 芯片架构 | ESP32 Chip Architecture:**
 
